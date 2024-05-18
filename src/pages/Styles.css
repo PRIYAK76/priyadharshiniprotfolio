@@ -21,3 +21,7 @@
 .hero-sec{
     margin-top: 4rem;
 }
+
+a{
+    color: inherit;
+}

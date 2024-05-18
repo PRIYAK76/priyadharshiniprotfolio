@@ -9,6 +9,7 @@ import About from "./pages/about/About";
 import Experience from "./pages/experience/Experience";
 import Contact from "./pages/contact/Contact";
 import Projects from "./pages/projects/Projects";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,8 +21,8 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Experience" element={<Experience />} />
         <Route path="/Projects" element={<Projects />} />
-
       </Routes>
+      <Footer />
     </Router>
   );
 }
