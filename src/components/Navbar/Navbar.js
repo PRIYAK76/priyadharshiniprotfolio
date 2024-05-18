@@ -20,7 +20,7 @@ const Navbar = () => {
                         <NavLink to="/"> <img src={Logo} className="logo-image-navbar" alt='logo-pigc-navbar' /></NavLink>
                     </div>
                     <div className="menu-icon" onClick={handleShowNavbar}>
-                        {showNavbar ? <MdClose /> : <RiMenu3Fill />}
+                        {showNavbar ? <MdClose size={24} /> : <RiMenu3Fill size={24} />}
 
                     </div>
                     <div className={`nav-elements  ${showNavbar && "active"}`}>

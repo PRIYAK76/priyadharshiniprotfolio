@@ -1,27 +1,89 @@
-.hero-section-title-1{
+.hero-section-title-1 {
     font-size: 5.4rem;
     font-weight: 700;
-    color: cadetblue;
+    color: rgb(95, 158, 160);
 }
 
-.hero-section-title-2{
+.hero-section-title-2 {
     font-size: 4rem;
     font-weight: 700;
-    color:rgb(127, 187, 187);
+    color: rgb(127, 187, 187);
     letter-spacing: 0.4rem;
 }
 
-.hero-section-subtitle{
+.hero-section-subtitle {
     font-size: 1.2rem;
     font-weight: 700;
     width: 70%;
-    color:rgb(161, 161, 161);
+    color: rgb(161, 161, 161);
 }
 
-.hero-sec{
+.hero-sec {
     margin-top: 4rem;
 }
 
-a{
+a {
     color: inherit;
+}
+
+.about-me-text {
+    font-size: 18px;
+    width: 60%;
+    color: rgb(162, 186, 186);
+}
+
+.about-me-title {
+    font-size: 20px;
+    color: black;
+}
+
+.hr-with-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hr-with-text hr {
+    width: 90%;
+    margin: 0;
+    color: white;
+}
+
+.hr-text {
+    padding: 0 10px;
+    background-color: white;
+    width: 18%;
+    border-radius: 5px;
+}
+
+.two-column-list {
+    columns: 4;
+    list-style: none;
+    padding: 0;
+    column-gap: 0px;
+    color: white;
+}
+
+.two-column-list li {
+    margin-bottom: 10px;
+    /* Adjust as needed */
+    list-style-type: none;
+}
+
+.arrow-list {
+    list-style: none;
+    /* padding-left: 20px; */
+}
+
+.arrow-list li::before {
+    content: '';
+    display: inline-block;
+    margin-right: 5px;
+    /* Adjust spacing */
+    vertical-align: middle;
+}
+
+ul{
+    margin: 0px;
 }

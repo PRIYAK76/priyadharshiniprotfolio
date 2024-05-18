@@ -84,6 +84,9 @@ ul{
   }
 }
 
+.menu-icon{
+  color: white;
+}
 @media (max-width: 600px) {
   .menu-icon {
     display: block;
@@ -94,7 +97,8 @@ ul{
     position: absolute;
     right: 0;
     top: 60px;
-    background-color: #fef7e5;
+    /* background-color: #32484c; */
+    background: linear-gradient(90deg, #2d555c, #0a4954);
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
@@ -113,5 +117,9 @@ ul{
   .nav-elements ul li {
     margin-right: unset;
     margin-top: 22px;
+  }
+
+  .d-flex{
+    display: block !important;
   }
 }
