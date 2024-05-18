@@ -17,7 +17,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="container">
                     <div>
-                        <img src={Logo} className="logo-image-navbar" />
+                        <img src={Logo} className="logo-image-navbar" alt='logo-image-navbar' />
                     </div>
                     <div className="menu-icon" onClick={handleShowNavbar}>
                         {showNavbar ? <MdClose /> : <RiMenu3Fill />}
@@ -26,19 +26,19 @@ const Navbar = () => {
                     <div className={`nav-elements  ${showNavbar && "active"}`}>
                         <ul>
                             <li>
-                                <NavLink to="/">Home</NavLink>
+                                <NavLink to="/">About</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/blogs">Blogs</NavLink>
+                                <NavLink to="/blogs">Experience</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/projects">Projects</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/about">About</NavLink>
+                                <NavLink to="/contact">Contact</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/contact">Contact</NavLink>
+                               <button className='resume-btn-navbar'> <NavLink to="/about">Resume</NavLink></button>
                             </li>
                         </ul>
                     </div>
