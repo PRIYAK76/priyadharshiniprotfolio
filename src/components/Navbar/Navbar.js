@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import "./Navbar.css"
 import { RiMenu3Fill } from "react-icons/ri";
 import { MdClose } from "react-icons/md";
-import Logo from "../../images/letter-p.png"
+import Logo from "../../images/p-logo-white.jpg"
 
 const Navbar = () => {
     const [showNavbar, setShowNavbar] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="container">
                     <div>
-                        <img src={Logo} className="logo-image-navbar" alt='logo-pigc-navbar' />
+                        <NavLink to="/"> <img src={Logo} className="logo-image-navbar" alt='logo-pigc-navbar' /></NavLink>
                     </div>
                     <div className="menu-icon" onClick={handleShowNavbar}>
                         {showNavbar ? <MdClose /> : <RiMenu3Fill />}
@@ -26,19 +26,19 @@ const Navbar = () => {
                     <div className={`nav-elements  ${showNavbar && "active"}`}>
                         <ul>
                             <li>
-                                <NavLink to="/">About</NavLink>
+                                <NavLink to="/About">About</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/blogs">Experience</NavLink>
+                                <NavLink to="/Experience">Experience</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/projects">Projects</NavLink>
+                                <NavLink to="/Projects">Projects</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/contact">Contact</NavLink>
+                                <NavLink to="/Contact">Contact</NavLink>
                             </li>
                             <li>
-                               <button className='resume-btn-navbar'> <NavLink to="/about">Resume</NavLink></button>
+                                <button className='resume-btn-navbar'> <NavLink to="/Res">Resume</NavLink></button>
                             </li>
                         </ul>
                     </div>

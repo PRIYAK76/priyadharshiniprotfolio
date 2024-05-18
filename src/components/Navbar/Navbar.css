@@ -4,15 +4,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  background-color: #fcfcfc;
+  background-color: #020c1b;
 }
 
 .logo-image-navbar{
- width: 25px;
+ width: 45px;
+ border-radius: 50%
 }
 
 .resume-btn-navbar{
-border: 1px solid #574c4c;
+border: 1px solid #5fff;
 background: transparent;
 border-radius: 6px;
 padding: 3px 20px;
@@ -31,7 +32,7 @@ padding: 3px 20px;
 .navbar {
   /* height: 60px; */
   padding: 20px;
-  background-color: #fef7e5;
+  background-color: #020c1b;
   position: relative;
 }
 
@@ -57,13 +58,13 @@ ul{
 .nav-elements ul a {
   font-size: 14px;
   font-weight: 400;
-  color: #2f234f;
+  color: #b5b5b5;
   text-decoration: none;
 }
 
 .nav-elements ul a.active {
-  color: #574c4c;
-  font-weight: 500;
+  color: #ffff;
+  font-weight: 600;
   position: relative;
 }
 

@@ -1,0 +1,23 @@
+.hero-section-title-1{
+    font-size: 5.4rem;
+    font-weight: 700;
+    color: cadetblue;
+}
+
+.hero-section-title-2{
+    font-size: 4rem;
+    font-weight: 700;
+    color:rgb(127, 187, 187);
+    letter-spacing: 0.4rem;
+}
+
+.hero-section-subtitle{
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 70%;
+    color:rgb(161, 161, 161);
+}
+
+.hero-sec{
+    margin-top: 4rem;
+}
