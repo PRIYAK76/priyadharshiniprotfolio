@@ -17,7 +17,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="container">
                     <div>
-                        <img src={Logo} className="logo-image-navbar" alt='logo-image-navbar' />
+                        <img src={Logo} className="logo-image-navbar" alt='logo-pigc-navbar' />
                     </div>
                     <div className="menu-icon" onClick={handleShowNavbar}>
                         {showNavbar ? <MdClose /> : <RiMenu3Fill />}
