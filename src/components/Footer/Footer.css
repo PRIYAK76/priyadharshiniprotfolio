@@ -9,5 +9,26 @@
 
 .footer-title{
     color: cadetblue;
+}
 
+@media(max-width:500px){
+    .hr-tag-footer{
+        border-top: 1.3px solid cadetblue;
+        width: 100%;
+    }
+    
+    .footer-content{
+
+        color: cadetblue;
+    }
+    
+    .footer-title{
+        font-size: 20px;
+        color: cadetblue;
+    }
+
+    .footer-text{
+        font-size: 15px;
+        margin-top: 16px;
+    }
 }

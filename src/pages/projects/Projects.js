@@ -14,7 +14,7 @@ const Projects = () => {
             </div>
             <p><ul className="one-column-list arrow-list my-5">
               {proj.Details.map((item, index) => (
-                <li key={index}>
+                <li key={index} className='list-projects'>
                   <IoMdArrowDropright color='#5f9ea0' size={24} />
                   {item}
                 </li>

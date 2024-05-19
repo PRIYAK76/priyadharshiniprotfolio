@@ -138,3 +138,153 @@ ul{
     padding: 10px;
     border-radius: 10px;
 }
+
+@media(max-width:500px){
+    .hero-section-title-1 {
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: rgb(95, 158, 160);
+    }
+    
+    .hero-section-title-2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: rgb(127, 187, 187);
+        letter-spacing: 0.1rem;
+    }
+    
+    .hero-section-subtitle {
+        font-size: 1rem;
+        font-weight: 700;
+        width: 80%;
+        color: rgb(161, 161, 161);
+    }
+    
+    .hero-sec {
+        margin-top: 4rem;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+    
+    .about-me-text {
+        font-size: 14px;
+        width: 100%;
+        color: rgb(162, 186, 186);
+    }
+    
+    .about-me-title {
+        font-size: 20px;
+        color: black;
+    }
+    
+    .hr-with-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .hr-with-text hr {
+        width: 90%;
+        margin: 0;
+        color: white;
+    }
+    
+    .hr-text {
+        padding: 0 10px;
+        background-color: white;
+        width: 50%;
+        border-radius: 5px;
+    }
+    
+    .hr-text1 {
+        padding: 0 10px;
+        background-color: white;
+        width: 80%;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    
+    .two-column-list {
+        columns: 2;
+        list-style: none;
+        padding: 0;
+        column-gap: 0px;
+        color: white;
+    }
+    
+    .two-column-list li {
+        margin-bottom: 10px;
+        /* Adjust as needed */
+        list-style-type: none;
+    }
+    
+    .one-column-list li {
+        margin-bottom: 15px;
+        /* Adjust as needed */
+        list-style-type: none;
+    }
+    
+    .arrow-list {
+        list-style: none;
+        /* padding-left: 20px; */
+    }
+    
+    .arrow-list li::before {
+        content: '';
+        display: inline-block;
+        margin-right: 5px;
+        /* Adjust spacing */
+        vertical-align: middle;
+    }
+    
+    ul{
+        margin: 0px;
+    }
+    
+    .experience-main-title{
+        font-size: 20px;
+        color: white;
+    }
+    
+    .one-column-list {
+        columns: 1;
+        list-style: none;
+        padding: 0;
+        column-gap: 0px;
+        color: white;
+    }
+    
+    .contact-title{
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        color: cadetblue;
+    }
+    
+    .contact-sub-title{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        color: antiquewhite;
+    }
+    
+    .contact-btn{
+        border: 1px solid cadetblue;
+        background: transparent;
+        color: white;
+        font-size: 14px;
+        padding: 6px;
+        border-radius: 10px;
+        width: 190px;
+        margin-left: -60px !important;
+    }
+    
+    .list-projects{
+        font-size: 12px;
+        text-align: justify;
+    }
+}

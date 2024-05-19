@@ -93,8 +93,10 @@ ul {
   .menu-icon {
     display: block;
     cursor: pointer;
+
   }
 
+  .nav{    z-index: 100000;}
   .nav-elements {
     position: absolute;
     right: 0;
@@ -109,6 +111,7 @@ ul {
 
   .nav-elements.active {
     width: 270px;
+    z-index: 100000;
   }
 
   .nav-elements ul {
