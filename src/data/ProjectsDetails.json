@@ -1,0 +1,39 @@
+[
+    {
+        "ProjectName" : "Ecommerce",
+        "Details" : [
+            "Developed a responsive eCommerce website with React, Redux, and Bootstrap, integrating backend API calls for dynamic data.",
+            "Implemented filtering functionalities and ensured optimal user experience across devices.",
+            "An online platform that allows businesses to conduct transactions over the internet",
+            "These websites enable consumers to browse products, add items to their cart, and purchase them online.",
+            " They typically offer various features such as product catalogs, shopping carts, checkout processes, and payment gateways."
+        ]
+    },
+    {
+        "ProjectName" : "Ecommerce Admin",
+        "Details" : [
+            "Developed a Shopify-inspired platform empowering users to customize their websites and launch e-commerce stores.",
+            " Integrated user-friendly customization tools and streamlined product management features for seamless selling experiences.",
+            "An eCommerce admin portal is a comprehensive backend interface that allows website administrators and business owners to manage products, orders, customers, and various other aspects of an online store",
+            "By providing a centralized platform for product management, order processing, customer service, and marketing, the admin portal ensures that business operations run smoothly and efficiently"
+        ]
+    },
+    {
+        "ProjectName" : "Jewellery Payment",
+        "Details" : [
+            "Developed a Jewel Chit website leveraging React.js, featuring robust user payment tracking functionality and a comprehensive history of past payments.",
+            "Integrated React Captcha for enhanced security measures, ensuring a seamless and secure user experience.",
+            " Ability to categorize customers based on purchase history, preferences, and demographics for targeted marketing.",
+            "The Jwelley payment app represents a comprehensive solution for the jewelry industry, addressing the unique challenges of managing high-value transactions, customer relationships, and inventory"
+        ]
+    },
+    {
+        "ProjectName" : "Survey master",
+        "Details" : [
+            "Centralized dashboard showing survey statistics like completion rate, number of respondents, and average response time.",
+            "Intuitive drag-and-drop interface for creating surveys. Users can add various question types (multiple-choice, short answer, rating scales, etc.)",
+            "By offering comprehensive features for survey creation, distribution, response collection, and data analysis, the app can provide valuable insights and drive informed decision-making",
+            "Robust security measures and user-friendly design will ensure the app meets the needs of various users while maintaining data integrity and compliance with regulations."
+        ]
+    }
+]

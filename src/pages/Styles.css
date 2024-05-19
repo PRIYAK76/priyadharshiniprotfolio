@@ -115,3 +115,26 @@ ul{
     column-gap: 0px;
     color: white;
 }
+
+.contact-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: cadetblue;
+}
+
+.contact-sub-title{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: antiquewhite;
+}
+
+.contact-btn{
+    border: 1px solid cadetblue;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}

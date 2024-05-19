@@ -7,16 +7,17 @@ body {
   background-color: #020c1b;
 }
 
-.logo-image-navbar{
- width: 45px;
- border-radius: 50%
+.logo-image-navbar {
+  width: 45px;
+  border-radius: 50%
 }
 
-.resume-btn-navbar{
-border: 1px solid #5fff;
-background: transparent;
-border-radius: 6px;
-padding: 3px 20px;
+.resume-btn-navbar {
+  border: 1px solid #5fff;
+  background: transparent;
+  border-radius: 6px;
+  padding: 3px 20px;
+  color: #b5b5b5;
 }
 
 .container {
@@ -36,9 +37,9 @@ padding: 3px 20px;
   position: relative;
 }
 
-ul{
-    margin-bottom: 0px;
-    align-items: center;
+ul {
+  margin-bottom: 0px;
+  align-items: center;
 }
 
 .menu-icon {
@@ -84,9 +85,10 @@ ul{
   }
 }
 
-.menu-icon{
+.menu-icon {
   color: white;
 }
+
 @media (max-width: 600px) {
   .menu-icon {
     display: block;
@@ -119,7 +121,7 @@ ul{
     margin-top: 22px;
   }
 
-  .d-flex{
+  .d-flex {
     display: block !important;
   }
 }

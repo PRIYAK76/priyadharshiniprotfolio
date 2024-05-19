@@ -5,7 +5,6 @@ const About = () => {
   const items = ['HTML5', 'CSS3', 'Javascript (ES6)', 'Bootstrap 5', 'MUI', 'React', 'Redux', 'Figma', 'Android Studio', 'Netlify', 'CI/CD', 'Github'];
   return (
     <div className='container'>
-
       <div>
         <div class="hr-with-text my-4">
           <span class="hr-text about-me-title">About Me</span>
