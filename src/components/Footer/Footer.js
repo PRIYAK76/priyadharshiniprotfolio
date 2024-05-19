@@ -7,9 +7,6 @@ import { SiLinkedin } from "react-icons/si";
 const Footer = () => {
     return (
         <div className='container'>
-            {/* <div className='w-100'>
-                <hr className='hr-tag-footer' />
-            </div> */}
             <div className='hr-tag-footer'>
                 <h3 className='footer-title my-3'>Contact : </h3>
                 <div className='d-flex justify-content-between my-3 footer-content'>
