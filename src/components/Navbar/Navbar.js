@@ -38,9 +38,9 @@ const Navbar = () => {
                                 <NavLink to="/Contact">Contact</NavLink>
                             </li>
                             <li>
-                                {/* <a href="Priyadharshini_WP_Resume.pdf" target="_blank"> */}
+                                <a href="https://www.canva.com/design/DAGFpu-sK8o/Uownt96alsBJTWhfJ4e3_A/view?utm_content=DAGFpu-sK8o&utm_campaign=" target="_blank">
                                     <button className='resume-btn-navbar'>Resume</button>
-                                {/* </a> */}
+                                </a>
                             </li>
                         </ul>
                     </div>
