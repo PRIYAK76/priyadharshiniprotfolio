@@ -6,10 +6,13 @@ const Projects = () => {
   return (
     <div className='container'>
       <div>
+        <h1 className='website-Link'>Ecommerce Website - <a href="https://attirecom.netlify.app/" target="_blank" rel="noopener noreferrer">
+          Link</a></h1>
         {Data.map((proj) => (
           <div>
             <div class="hr-with-text my-4">
-              <span class="hr-text1 about-me-title"> {proj.ProjectName}</span>
+              <span class="hr-text1 about-me-title">
+                {proj.ProjectName}</span>
               <hr />
             </div>
             <p><ul className="one-column-list arrow-list my-5">
@@ -23,6 +26,12 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      {/*<div class="hr-with-text my-4">
+ <span class="hr-text1 about-me-title">
+<a href={proj.Link} target="_blank" rel="noopener noreferrer">
+  {proj.ProjectName} - View </a></span>
+<hr />
+</div> */}
     </div>
   )
 }

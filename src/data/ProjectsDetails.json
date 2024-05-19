@@ -1,6 +1,7 @@
 [
     {
         "ProjectName" : "Ecommerce",
+        "Link" : "https://attirecom.netlify.app/",
         "Details" : [
             "Developed a responsive eCommerce website with React, Redux, and Bootstrap, integrating backend API calls for dynamic data.",
             "Implemented filtering functionalities and ensured optimal user experience across devices.",
@@ -11,6 +12,7 @@
     },
     {
         "ProjectName" : "Ecommerce Admin",
+        "Link" : "",
         "Details" : [
             "Developed a Shopify-inspired platform empowering users to customize their websites and launch e-commerce stores.",
             " Integrated user-friendly customization tools and streamlined product management features for seamless selling experiences.",
@@ -20,6 +22,7 @@
     },
     {
         "ProjectName" : "Jewellery Payment",
+        "Link" : "",
         "Details" : [
             "Developed a Jewel Chit website leveraging React.js, featuring robust user payment tracking functionality and a comprehensive history of past payments.",
             "Integrated React Captcha for enhanced security measures, ensuring a seamless and secure user experience.",
@@ -29,6 +32,7 @@
     },
     {
         "ProjectName" : "Survey master",
+        "Link" : "",
         "Details" : [
             "Centralized dashboard showing survey statistics like completion rate, number of respondents, and average response time.",
             "Intuitive drag-and-drop interface for creating surveys. Users can add various question types (multiple-choice, short answer, rating scales, etc.)",
