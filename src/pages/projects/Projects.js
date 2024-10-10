@@ -26,12 +26,6 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      {/*<div class="hr-with-text my-4">
- <span class="hr-text1 about-me-title">
-<a href={proj.Link} target="_blank" rel="noopener noreferrer">
-  {proj.ProjectName} - View </a></span>
-<hr />
-</div> */}
     </div>
   )
 }

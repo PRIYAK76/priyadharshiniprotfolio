@@ -2,7 +2,7 @@ import React from 'react'
 import { IoMdArrowDropright } from "react-icons/io";
 
 const About = () => {
-  const items = ['HTML5', 'CSS3', 'Javascript (ES6)', 'Bootstrap 5', 'MUI', 'React', 'Redux', 'Figma', 'Android Studio', 'Netlify', 'CI/CD', 'Github'];
+  const items = ['HTML5', 'CSS3', 'Javascript (ES6)', 'Bootstrap 5', 'MUI', 'React', 'Redux', 'Figma', 'Android Studio', 'Netlify', 'CI/CD', 'Github', 'Next js', 'React Native'];
   return (
     <div className='container'>
       <div>
